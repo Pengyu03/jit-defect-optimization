@@ -1,0 +1,14 @@
+[
+  {
+    "name": "openstack",
+    "url": "https://raw.githubusercontent.com/software-rebels/JITMovingTarget/master/data/openstack.csv",
+    "bytes": 4448994,
+    "sha256": "2b1d2128bee82e905b0233d6646c3fa88eed033e440482e2f89272a3dd436505"
+  },
+  {
+    "name": "qt",
+    "url": "https://raw.githubusercontent.com/software-rebels/JITMovingTarget/master/data/qt.csv",
+    "bytes": 6546502,
+    "sha256": "656e6c1b3f06f2bab3329ae002bccdbbfd709b15f8b65cd2f070bbaa6713b48c"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "protocol_hash": "ff28d4a3daeec1d5cf2bee0138fa3bcbfa33d6685451a19b85c1e41f874d28bf",
+  "n_comparisons": 12,
+  "changed_count": 6,
+  "changed_fraction": 0.5,
+  "source_files_sha256_relative_to_run": {
+    "tuning/camel/screen_rankings.json": "fb64db4a8e44e931dc6bc1434ed5a1e2ac5e6783336792e72c60f9d827339c94",
+    "tuning/camel/selection.json": "dbef43aca8cd4368c27916ca2e6d2f0f6cb5b4e330a688b18495b271a3d17cde",
+    "tuning/ignite/screen_rankings.json": "6437326131e1a2f002ce800b3081697e6af6a3f81aada18b5c03a793e8b5da44",
+    "tuning/ignite/selection.json": "bc61983d949ec8538759cce9efd8853270cbad23a848278cea4884b6578e3573",
+    "tuning/flink/screen_rankings.json": "dd8b0c45b3eedb76dabc258c45419967a3d94b4b20a3d1a8b4df49180f11a567",
+    "tuning/flink/selection.json": "c0798f4d0732cbf8b79e76524959b45dcf36c5aa34ee9b1ee4ec86b61b872acd"
+  },
+  "comparisons": [
+    {
+      "dataset": "camel",
+      "method": "gd",
+      "screen_winner_candidate": 5,
+      "screen_winner_mean_validation_ap": 0.24922393032960916,
+      "finalist_winner_candidate": 2,
+      "finalist_winner_mean_validation_ap": 0.24932290043421665,
+      "changed": true
+    },
+    {
+      "dataset": "camel",
+      "method": "momentum",
+      "screen_winner_candidate": 4,
+      "screen_winner_mean_validation_ap": 0.255908076973164,
+      "finalist_winner_candidate": 4,
+      "finalist_winner_mean_validation_ap": 0.25807531443102694,
+      "changed": false
+    },
+    {
+      "dataset": "camel",
+      "method": "adam",
+      "screen_winner_candidate": 4,
+      "screen_winner_mean_validation_ap": 0.2566151548029543,
+      "finalist_winner_candidate": 4,
+      "finalist_winner_mean_validation_ap": 0.2542103582843479,
+      "changed": false
+    },
+    {
+      "dataset": "camel",
+      "method": "lbfgs",
+      "screen_winner_candidate": 6,
+      "screen_winner_mean_validation_ap": 0.25530650149739864,
+      "finalist_winner_candidate": 6,
+      "finalist_winner_mean_validation_ap": 0.25035456723384464,
+      "changed": false
+    },
+    {
+      "dataset": "ignite",
+      "method": "gd",
+      "screen_winner_candidate": 2,
+      "screen_winner_mean_validation_ap": 0.6637396409421148,
+      "finalist_winner_candidate": 2,
+      "finalist_winner_mean_validation_ap": 0.6620939815121261,
+      "changed": false
+    },
+    {
+      "dataset": "ignite",
+      "method": "momentum",
+      "screen_winner_candidate": 4,
+      "screen_winner_mean_validation_ap": 0.6783800311214845,
+      "finalist_winner_candidate": 6,
+      "finalist_winner_mean_validation_ap": 0.6483312642466544,
+      "changed": true
+    },
+    {
+      "dataset": "ignite",
+      "method": "adam",
+      "screen_winner_candidate": 3,
+      "screen_winner_mean_validation_ap": 0.6657475775376996,
+      "finalist_winner_candidate": 2,
+      "finalist_winner_mean_validation_ap": 0.6499133301683382,
+      "changed": true
+    },
+    {
+      "dataset": "ignite",
+      "method": "lbfgs",
+      "screen_winner_candidate": 0,
+      "screen_winner_mean_validation_ap": 0.6599508370362567,
+      "finalist_winner_candidate": 0,
+      "finalist_winner_mean_validation_ap": 0.579472941997463,
+      "changed": false
+    },
+    {
+      "dataset": "flink",
+      "method": "gd",
+      "screen_winner_candidate": 7,
+      "screen_winner_mean_validation_ap": 0.796144220661094,
+      "finalist_winner_candidate": 6,
+      "finalist_winner_mean_validation_ap": 0.783467381335013,
+      "changed": true
+    },
+    {
+      "dataset": "flink",
+      "method": "momentum",
+      "screen_winner_candidate": 4,
+      "screen_winner_mean_validation_ap": 0.7936303703189457,
+      "finalist_winner_candidate": 4,
+      "finalist_winner_mean_validation_ap": 0.7936303703189457,
+      "changed": false
+    },
+    {
+      "dataset": "flink",
+      "method": "adam",
+      "screen_winner_candidate": 1,
+      "screen_winner_mean_validation_ap": 0.7986870492949472,
+      "finalist_winner_candidate": 0,
+      "finalist_winner_mean_validation_ap": 0.7966012013286325,
+      "changed": true
+    },
+    {
+      "dataset": "flink",
+      "method": "lbfgs",
+      "screen_winner_candidate": 1,
+      "screen_winner_mean_validation_ap": 0.792916387981103,
+      "finalist_winner_candidate": 3,
+      "finalist_winner_mean_validation_ap": 0.7852671205716131,
+      "changed": true
+    }
+  ],
+  "interpretation": "Descriptive comparison of the eligible short-screen winner and the saved full-budget finalist selection. AP values come from different budget stages; they are not test scores or unbiased gain estimates. No configuration is changed."
+}

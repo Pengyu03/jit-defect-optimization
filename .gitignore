@@ -1,0 +1,21 @@
+# Local dependencies and caches
+.venv/
+.deps/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Downloaded or generated datasets and full experiment state
+data/raw/*.csv
+data/external_raw/*.csv
+data/processed/
+data/study/
+results/study_v2/
+results/.matplotlib/
+
+# Local build artifacts
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
