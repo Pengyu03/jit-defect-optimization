@@ -1,6 +1,6 @@
 # Unconstrained optimization for just-in-time defect prediction
 
-This repository contains the experiment code, summary results, plots, and [final report](paper/report.pdf) for a study of four optimization methods on a neural just-in-time software defect predictor. The methods are gradient descent with Armijo backtracking, heavy-ball momentum, Adam, and L-BFGS. The objective is a smooth, class-weighted, regularized binary cross-entropy loss.
+This repository contains the experiment code, summary results, and plots for a study of four optimization methods on a neural just-in-time software defect predictor. The methods are gradient descent with Armijo backtracking, heavy-ball momentum, Adam, and L-BFGS. The objective is a smooth, class-weighted, regularized binary cross-entropy loss.
 
 The study uses Camel, Ignite, and Flink from ApacheJIT, plus OpenStack and Qt from the JIT Moving Target replication data. It includes 240 tuning runs and 96 reporting runs. L-BFGS reaches the lowest mean final training objective on each task; validation-selected GD leads mean test average precision on four tasks and Adam leads on Flink. In 85 of 96 reporting runs, continuing beyond the selected checkpoint lowers both training loss and test average precision.
 
