@@ -11,7 +11,6 @@ The study uses Camel, Ignite, and Flink from ApacheJIT, plus OpenStack and Qt fr
 - `analyze_study.py`, `check_zero_saddle.py`, `verify_summary_statistics.py`: analysis and numerical checks.
 - `results/summary/`: run-level and aggregate scalar results and the saddle certificate.
 - `figures/`: report plots generated from saved experiment results.
-- `paper/report.pdf`: the final report.
 
 ## Reproduce the study
 
